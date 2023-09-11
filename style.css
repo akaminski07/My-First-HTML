@@ -1,0 +1,23 @@
+body{
+    background-color: #E28413;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#introText{
+    color: #000022;
+}
+
+.highlight{
+    color: #FBF5F3;
+    font-weight: bold;
+}
+
+#introContainer{
+    width: 470px;
+    float: left;
+}
+
+#introPicture{
+    float: left;
+}
