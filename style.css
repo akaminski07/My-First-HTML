@@ -6,6 +6,9 @@ body{
 
 #introText{
     color: #000022;
+    float: right;
+    width:450px;
+    font-size: 18px;
 }
 
 .highlight{
@@ -14,10 +17,43 @@ body{
 }
 
 #introContainer{
-    width: 470px;
+    width: 570px;
     float: left;
 }
 
 #introPicture{
     float: left;
+}
+
+.reset{
+    clear: both;
+}
+
+#hobbyContainer{
+    width: 355px;
+    float: left;
+}
+
+#heroshot{
+    float: left;
+}
+
+.socialTumb{
+    float: left;
+    width: 50px
+}
+
+#meme {
+    float:left;
+}
+
+.center {
+    width: 300px;
+    margin: 50px;
+    float: right;
+}
+
+#mainContainer {
+    width: 860px;
+    margin: 0px auto;
 }
