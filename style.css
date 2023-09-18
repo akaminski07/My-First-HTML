@@ -1,33 +1,49 @@
 body{
-    background-color: white;
+    background-color: #ffffff;
     margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-#introText{
-    color: #000022;
-    float: right;
-    width:450px;
-    font-size: 18px;
+p{
+    margin:0px;
 }
 
+td {
+    border: 1px solid black;
+}
+
+/* Classes */
+
 .highlight{
-    color: rgb(5, 84, 255);
+    color: #00e98c;
     font-weight: bold;
 }
 
-#introContainer{
-    width: 570px;
+.socialTumb{
     float: left;
 }
 
-#introPicture{
-    float: left;
+.center {
+    width: 300px;
+    margin: 50px;
+    float: right;
 }
 
+.gifcenter {
+    width: 600px;
+    margin: 50px 0px 0px 100px;
+    float: left;
+}
 
 .reset{
     clear: both;
+}
+
+/* ID's */
+
+#introPicture{
+    float: left;
+    margin: 50px 0px 0px 0px;
 }
 
 #hobbyContainer{
@@ -39,12 +55,21 @@ body{
     margin: 60px 0px 0px 0px;
 }
 
+#introText{
+    color: #000022;
+    float: right;
+    width:450px;
+    font-size: 18px;
+}
+
 #heroshot{
     float: left;
     margin: 50px 0px 40px 0px;
+    border:2px solid black;
 }
 
-.socialTumb{
+#introContainer{
+    width: 570px;
     float: left;
 }
 
@@ -53,13 +78,40 @@ body{
     margin: 0px 50px 0px 0px;
 }
 
-.center {
-    width: 300px;
-    margin: 50px;
-    float: right;
-}
-
 #mainContainer {
     width: 860px;
     margin: 0px auto;
+}
+
+#paddingTest{ 
+    width: 800px;
+    height: 260px;
+    background-color:#00e98c;
+    margin: 10px 0px 0px 0px;
+    padding: 20px;
+    color: #ffffff;
+}
+
+#image {
+    margin: 50px;
+}
+
+/* Navigation */
+
+#navigation {
+    height: 30px;
+    margin: 20px 0px 10px 0px;
+
+}
+#navigation a{
+    padding: 15px;
+    background: #00e98c;
+    border: 3px solid #000000;
+    text-decoration:none;
+    color: #ffffff;
+    border-radius: 4px;
+}
+
+#navigation a:hover{
+    background: #000000;
 }
